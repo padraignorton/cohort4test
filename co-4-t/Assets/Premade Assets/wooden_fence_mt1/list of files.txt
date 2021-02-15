@@ -1,0 +1,42 @@
+wooden_fence_mt1
+old wooden fence
+five modifications
+
+_________________________
+
+dir obj:
+wood_fance_m0_t1.obj
+wood_fance_m1_t1.obj
+wood_fance_m2_t1.obj
+wood_fance_m3_t1.obj
+wood_fance_m4_t1.obj
+
+_________________________
+
+
+dir Textures
+wood_fance_mt1_AO.png	 		1024/1024 2048/2048 4096/4096
+wood_fance_mt1_Albedo.png	 	1024/1024 2048/2048 4096/4096
+wood_fance_mt1_Diffuse.png 		1024/1024 2048/2048 4096/4096
+wood_fance_mt1_Glossiness.png 		1024/1024 2048/2048 4096/4096
+wood_fance_mt1_Metallness.png  		1024/1024 2048/2048 4096/4096
+wood_fance_mt1_Roughness.png   	1024/1024 2048/2048 4096/4096
+wood_fance_mt1_Specular.png    	1024/1024 2048/2048 4096/4096
+wood_fance_mt1_Normal_dx.png  		1024/1024 2048/2048 4096/4096
+wood_fance_mt1_Normal_og.png   	1024/1024 2048/2048 4096/4096
+wood_fance_mt1_ARM.png   		1024/1024 2048/2048 4096/4096
+
+
+
+normal_dx(directX) normal_og(openGL)
+ARM(R-AO,G-Roughness,B-Metallness)
+_________________________
+
+Stat:
+
+wood_fance_m0_t1
+vert 148
+faces 132
+tris 264
+
+___________________________
