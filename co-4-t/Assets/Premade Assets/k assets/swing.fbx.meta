@@ -3,7 +3,42 @@ guid: 9a62099ac749f5e4eb1d10582127f145
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #33
+    second: {fileID: 2100000, guid: ba8c63ade603cea499e4e3f1b80b03f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: ba8c63ade603cea499e4e3f1b80b03f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boka.001
+    second: {fileID: 2100000, guid: bfcc81d1683002449998eb607118f71e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: box
+    second: {fileID: 2100000, guid: bfcc81d1683002449998eb607118f71e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chairr
+    second: {fileID: 2100000, guid: ba8c63ade603cea499e4e3f1b80b03f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: costruction1
+    second: {fileID: 2100000, guid: ba8c63ade603cea499e4e3f1b80b03f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fasad1.001
+    second: {fileID: 2100000, guid: bfcc81d1683002449998eb607118f71e, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
