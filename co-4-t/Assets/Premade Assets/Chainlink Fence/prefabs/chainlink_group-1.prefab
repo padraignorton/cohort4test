@@ -82,6 +82,7 @@ GameObject:
   - component: {fileID: 4000012676582732}
   - component: {fileID: 33000012466423710}
   - component: {fileID: 23000012367500464}
+  - component: {fileID: 2688566017320640928}
   m_Layer: 0
   m_Name: chainlink_group-1_LOD1
   m_TagString: Untagged
@@ -150,6 +151,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2688566017320640928
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011915361750}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 9a054218110e7774cb00b700ee363f87, type: 3}
 --- !u!1 &1000013042117590
 GameObject:
   m_ObjectHideFlags: 0
@@ -161,6 +176,7 @@ GameObject:
   - component: {fileID: 4000010556905108}
   - component: {fileID: 33000012078501130}
   - component: {fileID: 23000013261605104}
+  - component: {fileID: 3059641274940236905}
   m_Layer: 0
   m_Name: chainlink_group-1_LOD0
   m_TagString: Untagged
@@ -229,3 +245,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3059641274940236905
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013042117590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9a054218110e7774cb00b700ee363f87, type: 3}
