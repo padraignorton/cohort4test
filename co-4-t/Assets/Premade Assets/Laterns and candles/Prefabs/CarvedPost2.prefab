@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4839040619699398}
   - component: {fileID: 33549995844562804}
   - component: {fileID: 23178893440365066}
-  - component: {fileID: 3652141429726698893}
   m_Layer: 0
   m_Name: CarvedLampPost2
   m_TagString: Untagged
@@ -80,20 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3652141429726698893
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171281501270046}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 4c09d887a9821bd4fbf5c56c4bb3477d, type: 3}
 --- !u!1 &1204408703077684
 GameObject:
   m_ObjectHideFlags: 0
