@@ -361,6 +361,7 @@
 		<relationship name="effects">
 			<destination>{2b0c92f9-c0b0-4fe4-ad4c-e4d2d52c3c52}</destination>
 			<destination>{bb81c546-b1e5-4c85-b42b-30b1c5db1db9}</destination>
+			<destination>{fe45195d-1631-4b1c-9e45-a45433897adc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5f743015-47c5-4c09-b4ca-3184100376c3}" />
@@ -422,6 +423,7 @@
 		<relationship name="effects">
 			<destination>{fafdb305-007c-4744-83bd-411cdb96d684}</destination>
 			<destination>{3481388c-d8c2-4ca5-8fca-42eca098b787}</destination>
+			<destination>{085d6379-6b71-4391-a694-17d9d9b28173}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cc10c63f-4a3b-4ad5-9fba-f632700563e1}" />
@@ -438,28 +440,57 @@
 	</object>
 	<object class="SFXReverbEffect" id="{2b0c92f9-c0b0-4fe4-ad4c-e4d2d52c3c52}">
 		<property name="earlyDelay">
-			<value>162</value>
+			<value>61</value>
 		</property>
 		<property name="lateDelay">
-			<value>88</value>
+			<value>25</value>
 		</property>
 		<property name="HFDecayRatio">
-			<value>54</value>
-		</property>
-		<property name="diffusion">
-			<value>79</value>
+			<value>83</value>
 		</property>
 		<property name="highCut">
-			<value>760</value>
+			<value>3400</value>
 		</property>
 		<property name="earlyLateMix">
-			<value>94</value>
+			<value>100</value>
 		</property>
 		<relationship name="automators">
 			<destination>{8bbd5fc1-0d78-45dd-8637-39f47c2c1fcb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{bb81c546-b1e5-4c85-b42b-30b1c5db1db9}" />
+	<object class="MultibandEqEffect" id="{fe45195d-1631-4b1c-9e45-a45433897adc}">
+		<property name="filterTypeB">
+			<value>7</value>
+		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="filterTypeE">
+			<value>8</value>
+		</property>
+		<property name="frequencyA">
+			<value>22000</value>
+		</property>
+		<property name="frequencyB">
+			<value>272.147003</value>
+		</property>
+		<property name="frequencyC">
+			<value>528.136292</value>
+		</property>
+		<property name="frequencyE">
+			<value>1551.14563</value>
+		</property>
+		<property name="gainB">
+			<value>-18.103447</value>
+		</property>
+		<property name="gainC">
+			<value>-19.6551723</value>
+		</property>
+		<property name="gainE">
+			<value>-8.79310417</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{d4e38c14-44bd-4358-a607-25e768c4675b}">
 		<relationship name="parameter">
 			<destination>{8f852b74-909f-44b9-9faa-e1376aa59044}</destination>
@@ -493,6 +524,38 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{3481388c-d8c2-4ca5-8fca-42eca098b787}" />
+	<object class="MultibandEqEffect" id="{085d6379-6b71-4391-a694-17d9d9b28173}">
+		<property name="filterTypeB">
+			<value>7</value>
+		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="filterTypeE">
+			<value>8</value>
+		</property>
+		<property name="frequencyA">
+			<value>22000</value>
+		</property>
+		<property name="frequencyB">
+			<value>266.566376</value>
+		</property>
+		<property name="frequencyC">
+			<value>528.136292</value>
+		</property>
+		<property name="frequencyE">
+			<value>1685.17639</value>
+		</property>
+		<property name="gainB">
+			<value>-9.82758713</value>
+		</property>
+		<property name="gainC">
+			<value>-19.6551723</value>
+		</property>
+		<property name="gainE">
+			<value>-7.75862122</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{b277fbbe-4ca2-4b3a-9087-237d567ad082}">
 		<property name="position">
 			<value>0</value>
@@ -530,7 +593,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>-4</value>
 		</property>
 	</object>
 	<object class="Automator" id="{f8b0d5ca-8ecb-49cb-a238-42269fa02eb1}">
@@ -564,7 +627,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-12.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{aa6e85dd-dcb7-4e6e-8db5-4ce92aeac08b}">
@@ -572,7 +635,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-12.3000002</value>
+			<value>-12.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c6599804-c437-4052-ac57-811804260a70}">
