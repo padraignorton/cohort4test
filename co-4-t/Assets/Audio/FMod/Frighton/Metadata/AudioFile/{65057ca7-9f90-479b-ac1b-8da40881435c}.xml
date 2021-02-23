@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{65057ca7-9f90-479b-ac1b-8da40881435c}">
+		<property name="assetPath">
+			<value>violin.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>32.727278911564625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a8fca8ea-8966-4b96-a9c7-96974dda7ec8}</destination>
+		</relationship>
+	</object>
+</objects>

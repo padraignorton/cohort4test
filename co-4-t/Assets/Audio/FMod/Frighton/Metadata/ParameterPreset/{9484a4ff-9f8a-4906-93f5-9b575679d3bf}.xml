@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{9484a4ff-9f8a-4906-93f5-9b575679d3bf}">
+		<property name="name">
+			<value>Ocean view</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e4021863-e0d4-4ec8-be3d-9300ef21e7dd}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4c94cafe-30cb-4851-af05-78a4d38c0e56}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4c94cafe-30cb-4851-af05-78a4d38c0e56}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.17000000178813934</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>0.17000000178813934</value>
+		</property>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
+		</property>
+		<relationship name="automators">
+			<destination>{2a029b89-4e1a-407e-a246-f7601b6528bf}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{2a029b89-4e1a-407e-a246-f7601b6528bf}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

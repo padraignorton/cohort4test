@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{c8961a78-5aee-4270-8913-e2d308a290f7}">
+		<property name="assetPath">
+			<value>seasideLoop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>49.090907029478458</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a8fca8ea-8966-4b96-a9c7-96974dda7ec8}</destination>
+		</relationship>
+	</object>
+</objects>
