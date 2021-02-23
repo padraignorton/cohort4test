@@ -19,7 +19,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-9010460852430926751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,8 +40,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -1197614734339541492}
-  - {fileID: 4204513716279712656}
+  - {fileID: -6010623406270818783}
+  - {fileID: 647505922525720894}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -125,6 +125,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-8141678008937339683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ocean/Ocean view
+  m_EditorClassIdentifier: 
+  Name: Ocean view
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8094408940935976981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,7 +225,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 1642997015585291382}
+  - {fileID: -1968345441726326831}
   MinDistance: 1
   MaxDistance: 20
   Length: 61079
@@ -249,6 +269,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-7762503324436671436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/lvlMusic/Threat
+  m_EditorClassIdentifier: 
+  Name: Threat
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-7576378365725983780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -409,6 +449,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-7002429876271877875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/houseMusic/HouseProgress
+  m_EditorClassIdentifier: 
+  Name: HouseProgress
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-6967085413035469063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,7 +489,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -3423406118490769837}
+  - {fileID: -8141678008937339683}
   MinDistance: 1
   MaxDistance: 20
   Length: 292512
@@ -696,6 +756,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-6010623406270818783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/footsteps/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-5629314904196993064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,8 +919,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 189150568817781164}
-  - {fileID: -616786185123087440}
+  - {fileID: 3516168228150929832}
+  - {fileID: 2688299536390551022}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -999,7 +1079,7 @@ MonoBehaviour:
   Path: Assets/Audio/FMod/Frighton/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637496948810664882
+  lastModified: 637496963469703520
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1102,7 +1182,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3308504611846903611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1183,9 +1263,9 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 5642479232277773837}
-  - {fileID: 6483109135888575083}
-  - {fileID: -9113051014589611753}
+  - {fileID: -7762503324436671436}
+  - {fileID: 432400877859835391}
+  - {fileID: 7565083921754877331}
   MinDistance: 0
   MaxDistance: 0
   Length: 87272
@@ -1409,6 +1489,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-1968345441726326831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crickets/Ocean view
+  m_EditorClassIdentifier: 
+  Name: Ocean view
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-1798290769387301823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1548,7 +1648,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1141192521315187823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1628,7 +1728,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-412346599547163433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1739,7 +1839,7 @@ MonoBehaviour:
   - {fileID: -4084782165244755962}
   StringsBanks:
   - {fileID: 393230186554766374}
-  stringsBankWriteTime: 637496948810754898
+  stringsBankWriteTime: 637496963469743534
   cacheVersion: 6
 --- !u!114 &164135483486037398
 MonoBehaviour:
@@ -1780,7 +1880,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &203313125382199460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1836,11 +1936,51 @@ MonoBehaviour:
   Path: Assets/Audio/FMod/Frighton/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637496948810754898
+  lastModified: 637496963469743534
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 1430
+  Exists: 1
+--- !u!114 &432400877859835391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/lvlMusic/Violin
+  m_EditorClassIdentifier: 
+  Name: Violin
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &647505922525720894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/footsteps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &735526409581913679
 MonoBehaviour:
@@ -1981,7 +2121,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &1842163409495579016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2082,10 +2222,30 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 3348037668460749083}
+  - {fileID: -7002429876271877875}
   MinDistance: 1
   MaxDistance: 20
   Length: 360000
+--- !u!114 &2688299536390551022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump and Land/Jump or Land
+  m_EditorClassIdentifier: 
+  Name: Jump or Land
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &2718510650673703168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2285,7 +2445,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &3354698197631912647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2306,6 +2466,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &3516168228150929832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump and Land/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &3524644369648976432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2465,7 +2645,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4248607268315230436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2768,7 +2948,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &5779227057396552138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2968,7 +3148,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &6503352222183004564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3129,6 +3309,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &7565083921754877331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/lvlMusic/Ocean view
+  m_EditorClassIdentifier: 
+  Name: Ocean view
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7577720666396024302
 MonoBehaviour:
   m_ObjectHideFlags: 0
