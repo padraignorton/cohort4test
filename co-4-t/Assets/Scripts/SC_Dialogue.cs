@@ -7,7 +7,7 @@ public class SC_Dialogue : MonoBehaviour
 {
     public GameObject dialogueManager;
     public static bool GameIsPause = false;
-    public SC_CharacterController playerController;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -16,19 +16,15 @@ public class SC_Dialogue : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     public void DialogueMenu()
     {
-        //open death panel
+      
         dialogueManager.SetActive(true);
         Time.timeScale = 0f;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+        GameIsPause = true;
     }
 
     public void Close()
@@ -37,6 +33,7 @@ public class SC_Dialogue : MonoBehaviour
         Time.timeScale = 1f;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        GameIsPause = false;
     }
 
     // Activate the Main function when Player enter the trigger area
@@ -45,7 +42,6 @@ public class SC_Dialogue : MonoBehaviour
         if (other.CompareTag("Dialogue"))
         {
             DialogueMenu();
-            Destroy(this);
         }
     }
 
@@ -54,7 +50,7 @@ public class SC_Dialogue : MonoBehaviour
     {
         if (other.CompareTag("Dialogue"))
         {
-
+            Close();
         }
 
 
