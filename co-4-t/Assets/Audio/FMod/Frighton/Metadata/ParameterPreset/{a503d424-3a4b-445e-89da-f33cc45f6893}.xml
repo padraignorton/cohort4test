@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{a503d424-3a4b-445e-89da-f33cc45f6893}">
+		<property name="name">
+			<value>Threat</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e4021863-e0d4-4ec8-be3d-9300ef21e7dd}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3dfbb47d-ae39-4571-9cd5-cf2974c592af}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3dfbb47d-ae39-4571-9cd5-cf2974c592af}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.35999998450279236</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>0.32999998331069946</value>
+		</property>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
+		</property>
+		<relationship name="automators">
+			<destination>{5a1306f3-448e-4a20-aa5b-29e8346d05b0}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{5a1306f3-448e-4a20-aa5b-29e8346d05b0}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>
