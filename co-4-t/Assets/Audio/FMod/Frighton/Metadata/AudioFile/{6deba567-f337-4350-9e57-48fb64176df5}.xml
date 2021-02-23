@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{6deba567-f337-4350-9e57-48fb64176df5}">
+		<property name="assetPath">
+			<value>timp.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.4545351473922903</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a8fca8ea-8966-4b96-a9c7-96974dda7ec8}</destination>
+		</relationship>
+	</object>
+</objects>
