@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Object
   - Waypoint
+  - NPC
+  - Dialogue
   layers:
   - Default
   - TransparentFX
