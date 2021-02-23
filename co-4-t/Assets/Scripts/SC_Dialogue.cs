@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class SC_Dialogue : MonoBehaviour
 {
+    public DTrigger GetDTrigger;
     public GameObject dialogueManager;
     public static bool GameIsPause = false;
+    public static bool Dmanager = false;
    
     // Start is called before the first frame update
     void Start()
@@ -14,46 +16,38 @@ public class SC_Dialogue : MonoBehaviour
         dialogueManager.SetActive(false);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        Dmanager = false;
     }
 
-
-    public void DialogueMenu()
+    private void Update()
     {
-      
-        dialogueManager.SetActive(true);
-        Time.timeScale = 0f;
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
-        GameIsPause = true;
-    }
-
-    public void Close()
-    {
-        dialogueManager.SetActive(false);
-        Time.timeScale = 1f;
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
-        GameIsPause = false;
-    }
-
-    // Activate the Main function when Player enter the trigger area
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Dialogue"))
+        if(Dmanager == true)
         {
             DialogueMenu();
         }
     }
 
-    // Deactivate the Main function when Player exit the trigger area
-    void OnTriggerExit(Collider other)
+    public void DialogueMenu()
     {
-        if (other.CompareTag("Dialogue"))
-        {
-            Close();
-        }
-
-
-
+      
+      
+        Time.timeScale = 0f;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        GameIsPause = true;
+        
     }
+
+    public void Close()
+    {
+        dialogueManager.SetActive(false);
+        Destroy(GetDTrigger);
+        Time.timeScale = 1f;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        GameIsPause = false;
+        Dmanager = false;
+    }
+
+   
 }

@@ -29,7 +29,7 @@ public class SCHealth : MonoBehaviour
         
     }
 
-    // Activate the Main function when Player enter the trigger area
+    ////// Activate the Main function when Player enter the trigger area
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("NPC"))
