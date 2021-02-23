@@ -1529,8 +1529,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 18
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 19
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 19
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -6327,8 +6331,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 14
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 15
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 15
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -6572,8 +6580,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 19
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 20
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 20
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -6695,8 +6707,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 17
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 18
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 18
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -8304,8 +8320,12 @@ Transform:
   - {fileID: 813919054}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 15
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 16
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 16
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -8473,8 +8493,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 22
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 23
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 23
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -9574,8 +9598,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 10
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 11
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 11
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -12093,8 +12121,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 11
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 12
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 12
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -14802,8 +14834,12 @@ Transform:
   - {fileID: 904657780}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 13
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 14
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 14
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -20730,6 +20766,7 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300048, guid: 5e39bcc0421099647829e0f7008e40a0, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1461146428 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2810747317749507428, guid: 5555e716211c4ed478fb21c11c157517,
@@ -20742,6 +20779,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
 >>>>>>> parent of 1f96105 (Added some props to the shore)
 --- !u!1001 &1479721080
@@ -21248,8 +21287,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 21
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 22
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 22
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -22400,8 +22443,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 7
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 8
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 8
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -22568,8 +22615,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 8
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 9
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 9
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -22761,6 +22812,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: pb_Mesh36530
   serializedVersion: 10
   m_SubMeshes:
@@ -22943,11 +22995,17 @@ Transform:
   m_GameObject: {fileID: 1572168239}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 182.40808, y: 13.560431, z: -51.76748}
+=======
+  m_GameObject: {fileID: 1572168239}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 57.32, y: 17.495565, z: -17.92}
+>>>>>>> parent of 1f96105 (Added some props to the shore)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1808728303}
   - {fileID: 1764669283}
   - {fileID: 486928113}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Father: {fileID: 189494747}
   m_RootOrder: 40
@@ -22957,6 +23015,10 @@ Transform:
   m_RootOrder: 16
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
 =======
+  m_RootOrder: 17
+>>>>>>> parent of 1f96105 (Added some props to the shore)
+=======
+  m_Father: {fileID: 0}
   m_RootOrder: 17
 >>>>>>> parent of 1f96105 (Added some props to the shore)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25428,8 +25490,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 23
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 7
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 7
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -27290,8 +27356,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 20
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 21
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 21
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -30313,8 +30383,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 9
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 10
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 10
 >>>>>>> parent of 1f96105 (Added some props to the shore)
@@ -30863,8 +30937,12 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 12
 >>>>>>> parent of 1fbfda6 (Added in some mainland terrain)
+=======
+  m_RootOrder: 13
+>>>>>>> parent of 1f96105 (Added some props to the shore)
 =======
   m_RootOrder: 13
 >>>>>>> parent of 1f96105 (Added some props to the shore)
