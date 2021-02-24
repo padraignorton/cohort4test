@@ -60,8 +60,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -3760157403922304505}
-  - {fileID: -6967503258117823200}
+  - {fileID: 7627646170610367035}
+  - {fileID: 1790290266248637819}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -305,7 +305,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 4258021291088054988}
+  - {fileID: 8828248379328819084}
   MinDistance: 1
   MaxDistance: 20
   Length: 61079
@@ -589,7 +589,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 6540931793397639855}
+  - {fileID: -6140324048760881820}
   MinDistance: 1
   MaxDistance: 20
   Length: 292512
@@ -713,6 +713,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-6737240093514955183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump and Land/Jump or Land
+  m_EditorClassIdentifier: 
+  Name: Jump or Land
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-6672225348941338355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -827,6 +847,26 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Crickets/Ocean view
+  m_EditorClassIdentifier: 
+  Name: Ocean view
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-6140324048760881820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ocean/Ocean view
   m_EditorClassIdentifier: 
   Name: Ocean view
   Min: 0
@@ -1079,8 +1119,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -4372567258192993656}
-  - {fileID: 2886896590630273999}
+  - {fileID: 6418936048682522351}
+  - {fileID: -6737240093514955183}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -1279,7 +1319,7 @@ MonoBehaviour:
   Path: Assets/Audio/FMod/Frighton/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637497363465588980
+  lastModified: 637497180273383801
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1483,9 +1523,9 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 7869387967209091187}
-  - {fileID: -5876939941652957998}
-  - {fileID: -4829799846573565486}
+  - {fileID: 4757468878813411861}
+  - {fileID: -2284092591486038684}
+  - {fileID: 3893507669096314352}
   MinDistance: 0
   MaxDistance: 0
   Length: 87272
@@ -1684,6 +1724,26 @@ MonoBehaviour:
   Name: HouseProgress
   Min: 0
   Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-2284092591486038684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/lvlMusic/Violin
+  m_EditorClassIdentifier: 
+  Name: Violin
+  Min: 0
+  Max: 1
   Default: 0
   ID:
     data1: 0
@@ -2119,7 +2179,7 @@ MonoBehaviour:
   - {fileID: -4084782165244755962}
   StringsBanks:
   - {fileID: 393230186554766374}
-  stringsBankWriteTime: 637497363465609160
+  stringsBankWriteTime: 637497066723412631
   cacheVersion: 6
 --- !u!114 &164135483486037398
 MonoBehaviour:
@@ -2216,7 +2276,7 @@ MonoBehaviour:
   Path: Assets/Audio/FMod/Frighton/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637497363465609160
+  lastModified: 637497066723412631
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -2422,6 +2482,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &1790290266248637819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/footsteps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1842163409495579016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2522,7 +2602,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 447402713596711481}
+  - {fileID: 8519410451110845381}
   MinDistance: 1
   MaxDistance: 20
   Length: 360000
@@ -2906,6 +2986,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &3893507669096314352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/lvlMusic/Ocean view
+  m_EditorClassIdentifier: 
+  Name: Ocean view
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &3956903176798357970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3079,6 +3179,26 @@ MonoBehaviour:
   m_Name: parameter:/footsteps/Material
   m_EditorClassIdentifier: 
   Name: Material
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &4757468878813411861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/lvlMusic/Threat
+  m_EditorClassIdentifier: 
+  Name: Threat
   Min: 0
   Max: 1
   Default: 0
@@ -3469,6 +3589,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &6418936048682522351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump and Land/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &6483109135888575083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3729,6 +3869,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &7627646170610367035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/footsteps/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7635200013426691249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3929,6 +4089,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &8519410451110845381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/houseMusic/HouseProgress
+  m_EditorClassIdentifier: 
+  Name: HouseProgress
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &8568705709462917956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3960,6 +4140,26 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Ocean/Ocean view
+  m_EditorClassIdentifier: 
+  Name: Ocean view
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &8828248379328819084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crickets/Ocean view
   m_EditorClassIdentifier: 
   Name: Ocean view
   Min: 0
