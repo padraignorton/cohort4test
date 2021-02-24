@@ -1,49 +1,133 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Raycast : MonoBehaviour
 {
-    private GameObject raycastedObj;
+    public float distanceToSee;
+    RaycastHit whatIHit;
+    public GameObject player;
 
-    [SerializeField] private int rayLength = 10;
-    [SerializeField] private LayerMask layerMaskInteract;
 
-    [SerializeField] private Image uiCrosshair;
 
-    void Update()
+    // Start is called before the first frame update
+    void Start()
     {
-        RaycastHit hit;
-        Vector3 fwd = transform.TransformDirection(Vector3.forward);
+        player = GameObject.FindWithTag("Player");
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
 
-        if (Physics.Raycast(transform.position, fwd, out hit, rayLength, layerMaskInteract.value))
+    // Update is called once per frame
+    private void Update()
+    {
+        SelectKeyBeingPickedUpFromRay();
+    }
+
+
+
+
+    private void SelectKeyBeingPickedUpFromRay()
+    {
         {
-            if (hit.collider.CompareTag("Object"))
-            {
-                raycastedObj = hit.collider.gameObject;
-                CrosshairActive();
+            Debug.DrawRay(this.transform.position, this.transform.forward * distanceToSee, Color.red);
 
-                if (Input.GetKeyDown("0"))
+            if (Physics.Raycast(this.transform.position, this.transform.forward, out whatIHit, distanceToSee))
+            {
+                if (Input.GetKeyDown(KeyCode.E))
                 {
-                    Debug.Log("I HAVE INTERACTED WITH AN OBJECT");
-                    raycastedObj.SetActive(false);
+                    Debug.Log("I picked up a " + whatIHit.collider.gameObject.name);
+                    if (whatIHit.collider.tag == "Keycards")
+                    {
+                        if (whatIHit.collider.gameObject.GetComponent<KeyCards>().whatKeyAmI == KeyCards.Keycards.redKey)
+                        {
+                            player.GetComponent<Inventory>().hasRedKey = true;
+                            Destroy(whatIHit.collider.gameObject);
+                        }
+                    }
+                    if (whatIHit.collider.tag == "Doors")
+                    {
+                        if (whatIHit.collider.gameObject.GetComponent<DoorManager>().whatDoorAmI == DoorManager.Doormanager.redDoor)
+                        {
+                            if (player.GetComponent<Inventory>().hasRedKey == true)
+                            {
+                                player.GetComponent<Inventory>().hasRedKey = false;
+                                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+                            }
+                            else
+                            {
+                                Debug.Log("Find the Red Key!");
+                            }
+                        }
+                    }
+                }
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    Debug.Log("I picked up a " + whatIHit.collider.gameObject.name);
+                    if (whatIHit.collider.tag == "Keycards")
+                    {
+                        if (whatIHit.collider.gameObject.GetComponent<KeyCards>().whatKeyAmI == KeyCards.Keycards.blueKey)
+                        {
+                            player.GetComponent<Inventory>().hasBlueKey = true;
+                            Destroy(whatIHit.collider.gameObject);
+                        }
+                    }
+                    if (whatIHit.collider.tag == "Doors")
+                    {
+                        if (whatIHit.collider.gameObject.GetComponent<DoorManager>().whatDoorAmI == DoorManager.Doormanager.blueDoor)
+                        {
+                            if (player.GetComponent<Inventory>().hasBlueKey == true)
+                            {
+                                player.GetComponent<Inventory>().hasBlueKey = false;
+                                Destroy(whatIHit.collider.gameObject);
+                            }
+                            else
+                            {
+                                Debug.Log("Find the Blue Key!");
+                            }
+                        }
+                    }
+                }
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    Debug.Log("I picked up a " + whatIHit.collider.gameObject.name);
+                    if (whatIHit.collider.tag == "Keycards")
+                    {
+                        if (whatIHit.collider.gameObject.GetComponent<KeyCards>().whatKeyAmI == KeyCards.Keycards.greenKey)
+                        {
+                            player.GetComponent<Inventory>().hasGreenKey = true;
+                            Destroy(whatIHit.collider.gameObject);
+                        }
+                    }
+                    if (whatIHit.collider.tag == "Doors")
+                    {
+                        if (whatIHit.collider.gameObject.GetComponent<DoorManager>().whatDoorAmI == DoorManager.Doormanager.greenDoor)
+                        {
+                            if (player.GetComponent<Inventory>().hasGreenKey == true)
+                            {
+                                player.GetComponent<Inventory>().hasGreenKey = false;
+                                Destroy(whatIHit.collider.gameObject);
+                            }
+                            else
+                            {
+                                Debug.Log("Find the Green Key!");
+                            }
+                        }
+                    }
                 }
             }
         }
-        else
-        {
-            CrosshairNormal(); 
-        }
     }
 
-    void CrosshairActive()
+    void OnGUI()
     {
-        uiCrosshair.color = Color.red;
+        //Inventory UI
+        GUI.Label(new Rect(5, 5, 200, 25), "Find the key and escape!!! 'e' to interact");
+
+
     }
 
-    void CrosshairNormal()
-    {
-        uiCrosshair.color = Color.green;
-    }
 }

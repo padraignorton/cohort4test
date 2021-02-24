@@ -95,6 +95,8 @@ GameObject:
   - component: {fileID: 4242094815545543386}
   - component: {fileID: 4242094815545543387}
   - component: {fileID: 4242094815545543364}
+  - component: {fileID: 7308369494355347815}
+  - component: {fileID: 879747587491959801}
   - component: {fileID: 4242094815545543384}
   m_Layer: 0
   m_Name: Player
@@ -174,6 +176,35 @@ MonoBehaviour:
   - {fileID: 835298905242125514, guid: 623d8b0e011c20e40ab95d217ec0b026, type: 3}
   - {fileID: 1608456220443015475, guid: b0f63d87489e66b4e8c8c51368f46f80, type: 3}
   - {fileID: 7066961708854515438, guid: 0024b8be836d1d141a74ce465f7fb81b, type: 3}
+--- !u!114 &7308369494355347815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4242094815545543365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc945ab0315a564884a554bb506cbe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasRedKey: 0
+  hasBlueKey: 0
+  hasGreenKey: 0
+--- !u!114 &879747587491959801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4242094815545543365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 420fb7359f4be3c4dbce76f6b8e699b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceToSee: 10
+  player: {fileID: 4242094815545543365}
 --- !u!114 &4242094815545543384
 MonoBehaviour:
   m_ObjectHideFlags: 0
