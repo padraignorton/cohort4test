@@ -8,6 +8,8 @@ TagManager:
   - Waypoint
   - NPC
   - Dialogue
+  - Keycards
+  - Doors
   layers:
   - Default
   - TransparentFX

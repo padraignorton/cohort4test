@@ -26,17 +26,21 @@ public class GameManager : MonoBehaviour
         //open death panel
         deathPanel.SetActive(true);
         Pause();
-        SceneManager.LoadScene(1);
+        
 
     }
 
     public void Retrying()
     {
         Debug.Log("Retrying...");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(1);
     }
 
-
+    public void Menu()
+    {
+        Debug.Log("Menu...");
+        SceneManager.LoadScene(0);
+    }
 
     public void Pause()
     {
