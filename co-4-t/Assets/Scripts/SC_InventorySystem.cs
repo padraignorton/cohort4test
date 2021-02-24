@@ -162,7 +162,7 @@ public class SC_InventorySystem : MonoBehaviour
     void OnGUI()
     {
         //Inventory UI
-        GUI.Label(new Rect(5, 5, 200, 25), "Press 'Tab' to open Inventory");
+        GUI.Label(new Rect(5, 5, 200, 25), "Find the key and escape!!!");
 
         //Inventory window
         if (windowAnimation < 1)
